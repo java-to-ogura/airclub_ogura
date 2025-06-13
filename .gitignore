@@ -1,2 +1,4 @@
 tasks.json
 *.class
+
+target/

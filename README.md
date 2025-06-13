@@ -1,29 +1,35 @@
 # airclub_ogura
 
-This repository provides a simple command line Todo application written in Python.
+This repository provides a simple command line Todo application written in Java.
 
 ## Usage
+
+Compile the program:
+
+```
+javac Todo.java
+```
 
 Add a task:
 
 ```
-python todo.py add "Buy milk"
+java Todo add "Buy milk"
 ```
 
 List tasks:
 
 ```
-python todo.py list
+java Todo list
 ```
 
 Mark a task as done (by number):
 
 ```
-python todo.py done 1
+java Todo done 1
 ```
 
 Delete a task:
 
 ```
-python todo.py delete 1
+java Todo delete 1
 ```
